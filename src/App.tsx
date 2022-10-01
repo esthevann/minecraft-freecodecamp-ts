@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Canvas>
-        <Sky></Sky>
+        <Sky sunPosition={[100, 100,20]} />
       </Canvas>    
     </>
   )
